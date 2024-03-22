@@ -1,0 +1,1 @@
+# josm_map_paint_styles
