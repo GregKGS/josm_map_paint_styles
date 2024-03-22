@@ -1,0 +1,79 @@
+
+meta {
+    title: "Building Colors - UK building styles";
+    description: "Useful to spot buildings in the uk that are in need of more precise types (for example building=yes and building=house";
+    version: "1";
+    author: "whatismoss";
+
+}
+
+
+
+
+area[building] {
+ fill-color: orange;
+}
+
+ area[building=yes] {
+    width: 3;
+	fill-color: #ff0000;
+	dashes: 1,1;
+}
+
+
+area[building=residential], area[building=house] {
+    width: 3;
+	fill-color: #ff0000;
+	dashes: 2,4;
+}
+
+area[building=semidetached_house] {
+    fill-color: #ffff00;
+}
+
+
+area[building=garage], area[building=garages], area[building=industrial], area[building=transportation], area[building=warehouse], area[building=hangar], area[building=factory], area[building=manufacture], area[building=farm_auxiliary], area[building=shed], area[building=barn], area[building=outbuilding], area[building=service] {
+    fill-color: #8c79a8;
+}
+
+area[ area[building=hut], area[building=cabin], area[building=detached], area[building=farm], area[building=hotel] {
+    fill-color: #e87e51;
+}
+
+area[building=civic], area[building=hall], area[building=administrative], area[building=public], area[building=school], area[building=kindergarten], area[building=university], area[building=college], area[building=stadium], area[building=sports_centre] {
+    fill-color: #edd772;
+}
+
+area[building=hospital] {
+    fill-color: #f274a0;
+}
+
+area[building=commercial], area[building=retail] {
+    fill-color: #f7a1d6;
+}
+
+area[building=bunker], area[building=barracks] {
+    fill-color: #e66565;
+}
+
+area[building=collapsed], area[building=disused], area[abandoned:building], area[disused:building] {
+    fill-color: #787878;
+}
+
+area[building=construction] {
+    fill-color: #B6AE82;
+}
+
+area[building=roof], area[building=carport] {
+    fill-color: #C2CAD8;
+}
+
+area[building=static_caravan], area[building=tent], area[building=beach_hut] {
+    fill-color: #97b3e8;
+}
+
+area[building=office] {
+    fill-color: #73e6d4;
+}
+
+
